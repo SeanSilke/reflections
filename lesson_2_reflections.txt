@@ -17,3 +17,20 @@ history organized? How would branches help?
 	If i want to have some version of the project always available
 	Whenever i began to do something new i will make branch. To teach context.
 	To organise thing when working with others
+
+How do the diagrams help you visualize the branch structure?
+	In diagrams I can clearly see what commit reachable from branches.
+	(what branch contains which comment)
+	And commit history what parents have each comment.
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+	It is commit with two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always
+doing merges manually?
+	Git prepare merge so one can easily see and find place where
+	file was both modified and what was changed.
+	After successful merge without conflict. New version of file may
+	contain new code that is not familiar to person that make merge.
+	In manuall way you alway look on code that is you merging.
